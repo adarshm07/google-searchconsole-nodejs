@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fusebit/google-searchconsole-nodejs.git"
-  },
+  "repository": "git+https://github.com/fusebit/google-searchconsole-nodejs.git",
   "keywords": [
     "Google",
     "Search",
@@ -24,7 +21,14 @@
   },
   "homepage": "https://github.com/fusebit/google-searchconsole-nodejs#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
     "google-auth-library": "^7.14.0",
-    "googleapis": "^96.0.0"
+    "googleapis": "^96.0.0",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
